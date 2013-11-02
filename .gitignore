@@ -15,3 +15,7 @@ bin/
 target
 bin
 
+
+.metadata
+RemoteSystemsTempFiles
+Servers
