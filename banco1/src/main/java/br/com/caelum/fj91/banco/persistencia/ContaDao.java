@@ -14,7 +14,7 @@ public class ContaDao extends Dao<Conta> {
 		System.out.println("Listando contas abertas em " + ano);
 		
 		// TODO escrever ArrayList do lado esquerdo está errado?
-		ArrayList<Conta> lista = new ArrayList<Conta>();
+		List<Conta> lista = new ArrayList<Conta>();
 		
 		// insere 3 objetos de mentira; imagine um banco de dados aqui
 		lista.add(new Conta(765675, new GregorianCalendar(ano, 10, 4)));

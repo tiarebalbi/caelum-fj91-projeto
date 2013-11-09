@@ -7,13 +7,14 @@ import br.com.caelum.fj91.banco.modelo.Conta;
 /**
  * Aplica uma certa taxa de juros ao valor negativo do saldo da Conta. 
  */
-public class DescontaJuros {
+public class DescontaJuros implements Imposto {
 
 	private final BigDecimal taxaDeJuros;
 	public DescontaJuros(BigDecimal taxaDeJuros) {
 		this.taxaDeJuros = taxaDeJuros;
 	}
 	
+	@Override
 	public BigDecimal calculaDesconto(Conta conta) {
 		BigDecimal desconto = BigDecimal.ZERO;
 		
