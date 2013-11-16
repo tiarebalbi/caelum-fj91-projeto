@@ -8,6 +8,7 @@ public class ListaProdutosAction {
 	private Produtos produtos;
 	
 	public void setProdutos(Produtos produtos) {
+		System.out.println("Passou aqui...");
 		this.produtos = produtos;
 	}
 

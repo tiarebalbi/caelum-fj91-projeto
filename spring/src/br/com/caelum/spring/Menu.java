@@ -6,7 +6,7 @@ import br.com.caelum.spring.action.ListaProdutosAction;
 import br.com.caelum.spring.action.NovoProdutoAction;
 
 public class Menu {
-
+	
 	private NovoProdutoAction novoProdutoAction;
 	private ListaProdutosAction listaProdutosAction;
 	
