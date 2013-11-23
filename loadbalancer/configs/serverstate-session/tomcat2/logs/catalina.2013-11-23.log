@@ -1,0 +1,72 @@
+Nov 23, 2013 10:22:08 AM org.apache.catalina.startup.Embedded initDirs
+SEVERE: Cannot find specified temporary folder at /home/arq3849/workspace/Projetos/loadbalancer/configs/serverstate-session/tomcat2/temp
+Nov 23, 2013 10:22:08 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/i386:/lib:/usr/lib
+Nov 23, 2013 10:22:08 AM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8082
+Nov 23, 2013 10:22:08 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 826 ms
+Nov 23, 2013 10:22:08 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Nov 23, 2013 10:22:08 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.32
+Nov 23, 2013 10:22:08 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive projeto-jsf-client-state.war
+Nov 23, 2013 10:22:09 AM org.apache.catalina.core.StandardContext start
+SEVERE: Error listenerStart
+Nov 23, 2013 10:22:09 AM org.apache.catalina.core.StandardContext start
+SEVERE: Context [/projeto-jsf-client-state] startup failed due to previous errors
+Nov 23, 2013 10:22:09 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive livraria.war
+Nov 23, 2013 10:22:10 AM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8082
+Nov 23, 2013 10:22:10 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1362 ms
+Nov 23, 2013 11:02:01 AM org.apache.catalina.startup.Embedded initDirs
+SEVERE: Cannot find specified temporary folder at /home/arq3849/workspace/Projetos/loadbalancer/configs/serverstate-session/tomcat2/temp
+Nov 23, 2013 11:02:02 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/i386:/lib:/usr/lib
+Nov 23, 2013 11:02:02 AM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8082
+Nov 23, 2013 11:02:02 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 842 ms
+Nov 23, 2013 11:02:02 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Nov 23, 2013 11:02:02 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.32
+Nov 23, 2013 11:02:02 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive projeto-jsf-client-state.war
+Nov 23, 2013 11:02:03 AM org.apache.catalina.core.StandardContext start
+SEVERE: Error listenerStart
+Nov 23, 2013 11:02:03 AM org.apache.catalina.core.StandardContext start
+SEVERE: Context [/projeto-jsf-client-state] startup failed due to previous errors
+Nov 23, 2013 11:02:03 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive livraria.war
+Nov 23, 2013 11:02:03 AM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8082
+Nov 23, 2013 11:02:03 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1513 ms
+Nov 23, 2013 11:02:17 AM org.apache.catalina.startup.Embedded initDirs
+SEVERE: Cannot find specified temporary folder at /home/arq3849/workspace/Projetos/loadbalancer/configs/serverstate-session/tomcat2/temp
+Nov 23, 2013 11:02:17 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/i386:/lib:/usr/lib
+Nov 23, 2013 11:02:18 AM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8082
+Nov 23, 2013 11:02:18 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 780 ms
+Nov 23, 2013 11:02:18 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Nov 23, 2013 11:02:18 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.32
+Nov 23, 2013 11:02:18 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive projeto-jsf-client-state.war
+Nov 23, 2013 11:02:19 AM org.apache.catalina.core.StandardContext start
+SEVERE: Error listenerStart
+Nov 23, 2013 11:02:19 AM org.apache.catalina.core.StandardContext start
+SEVERE: Context [/projeto-jsf-client-state] startup failed due to previous errors
+Nov 23, 2013 11:02:19 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive livraria.war
+Nov 23, 2013 11:02:19 AM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8082
+Nov 23, 2013 11:02:19 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1580 ms

@@ -1,0 +1,168 @@
+Nov 23, 2013 12:26:51 PM org.apache.catalina.startup.Embedded initDirs
+SEVERE: Cannot find specified temporary folder at /home/arq3849/workspace/Projetos/loadbalancer/configs/serverstate-memcached/tomcat2/temp
+Nov 23, 2013 12:26:52 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/i386:/lib:/usr/lib
+Nov 23, 2013 12:26:52 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8082
+Nov 23, 2013 12:26:52 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 782 ms
+Nov 23, 2013 12:26:52 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Nov 23, 2013 12:26:52 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.32
+Nov 23, 2013 12:26:52 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive projeto-jsf-client-state.war
+Nov 23, 2013 12:26:53 PM org.apache.catalina.core.StandardContext start
+SEVERE: Error listenerStart
+Nov 23, 2013 12:26:53 PM de.javakaffee.web.msm.MemcachedSessionService startInternal
+INFO: MemcachedSessionService starts initialization... (configured nodes definition n1:localhost:11211 n2:localhost:11212, failover nodes n2)
+Nov 23, 2013 12:26:53 PM de.javakaffee.web.msm.SessionTrackerValve <init>
+INFO: Setting ignorePattern to .*\.(png|gif|jpg|css|js)\.cfm$
+Nov 23, 2013 12:26:53 PM de.javakaffee.web.msm.SessionTrackerValveTC6 getSessionCookieName
+FINE: Using session cookie name from context: JSESSIONID
+Nov 23, 2013 12:26:53 PM de.javakaffee.web.msm.MemcachedSessionService setLockingMode
+INFO: Setting lockingMode to null
+Nov 23, 2013 12:26:53 PM de.javakaffee.web.msm.MemcachedSessionService createTranscoderFactory
+INFO: Creating transcoder factory de.javakaffee.web.msm.JavaSerializationTranscoderFactory
+Nov 23, 2013 12:26:53 PM de.javakaffee.web.msm.MemcachedSessionService startInternal
+INFO: MemcachedSessionService finished initialization, sticky true, with node ids [n1] and failover node ids [n2]
+Nov 23, 2013 12:26:53 PM org.apache.catalina.core.StandardContext start
+SEVERE: Context [/projeto-jsf-client-state] startup failed due to previous errors
+Nov 23, 2013 12:26:53 PM de.javakaffee.web.msm.MemcachedBackupSessionManager stop
+INFO: Removing sessions from local session map.
+Nov 23, 2013 12:26:53 PM de.javakaffee.web.msm.MemcachedSessionService shutdown
+INFO: Stopping services.
+Nov 23, 2013 12:26:53 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive livraria.war
+Nov 23, 2013 12:26:54 PM de.javakaffee.web.msm.MemcachedSessionService startInternal
+INFO: MemcachedSessionService starts initialization... (configured nodes definition n1:localhost:11211 n2:localhost:11212, failover nodes n2)
+Nov 23, 2013 12:26:54 PM de.javakaffee.web.msm.SessionTrackerValve <init>
+INFO: Setting ignorePattern to .*\.(png|gif|jpg|css|js)\.cfm$
+Nov 23, 2013 12:26:54 PM de.javakaffee.web.msm.SessionTrackerValveTC6 getSessionCookieName
+FINE: Using session cookie name from context: JSESSIONID
+Nov 23, 2013 12:26:54 PM de.javakaffee.web.msm.MemcachedSessionService setLockingMode
+INFO: Setting lockingMode to null
+Nov 23, 2013 12:26:54 PM de.javakaffee.web.msm.MemcachedSessionService createTranscoderFactory
+INFO: Creating transcoder factory de.javakaffee.web.msm.JavaSerializationTranscoderFactory
+Nov 23, 2013 12:26:54 PM de.javakaffee.web.msm.MemcachedSessionService startInternal
+INFO: MemcachedSessionService finished initialization, sticky true, with node ids [n1] and failover node ids [n2]
+Nov 23, 2013 12:26:54 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8082
+Nov 23, 2013 12:26:54 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1853 ms
+Nov 23, 2013 12:27:51 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/ ==================
+Nov 23, 2013 12:27:53 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=EF41623A4CB246DC9C93877F72C6C9F7, version=0, secure=false
+Nov 23, 2013 12:27:53 PM de.javakaffee.web.msm.SessionTrackerValve logDebugResponseCookie
+FINE: Request finished, with Set-Cookie header: JSESSIONID=4207E219F76659CEAEFD121FA0173C7C-n1; Path=/livraria
+Nov 23, 2013 12:27:53 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/ ==================
+Nov 23, 2013 12:27:53 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/css/estilo.css ==================
+Nov 23, 2013 12:27:53 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/imagens/IntroducaoAArquiteturaEDesignDeSoftware.jpg ==================
+Nov 23, 2013 12:27:53 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/imagens/ServletsEJSP.jpg ==================
+Nov 23, 2013 12:27:53 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:27:53 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:27:53 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/imagens/IntroducaoAArquiteturaEDesignDeSoftware.jpg ==================
+Nov 23, 2013 12:27:53 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:27:53 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/imagens/ServiceDesignPatterns.jpg ==================
+Nov 23, 2013 12:27:53 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/imagens/ServletsEJSP.jpg ==================
+Nov 23, 2013 12:27:53 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/css/estilo.css ==================
+Nov 23, 2013 12:27:54 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:27:53 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/imagens/ThePragmaticProgrammer.jpg ==================
+Nov 23, 2013 12:27:54 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/imagens/ServiceDesignPatterns.jpg ==================
+Nov 23, 2013 12:27:54 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/imagens/CleanCode.jpg ==================
+Nov 23, 2013 12:27:54 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:27:54 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/imagens/ThePragmaticProgrammer.jpg ==================
+Nov 23, 2013 12:27:54 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:27:54 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/imagens/CleanCode.jpg ==================
+Nov 23, 2013 12:27:56 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/add?item=3 ==================
+Nov 23, 2013 12:27:56 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:27:56 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/add?item=3 ==================
+Nov 23, 2013 12:27:56 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/ ==================
+Nov 23, 2013 12:27:56 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:27:56 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/ ==================
+Nov 23, 2013 12:28:12 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/add?item=2 ==================
+Nov 23, 2013 12:28:12 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:28:12 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/add?item=2 ==================
+Nov 23, 2013 12:28:12 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/ ==================
+Nov 23, 2013 12:28:12 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:28:12 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/ ==================
+Nov 23, 2013 12:28:12 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/add?item=3 ==================
+Nov 23, 2013 12:28:12 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:28:12 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/add?item=3 ==================
+Nov 23, 2013 12:28:12 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/ ==================
+Nov 23, 2013 12:28:12 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:28:12 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/ ==================
+Nov 23, 2013 12:28:13 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/add?item=4 ==================
+Nov 23, 2013 12:28:13 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:28:13 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/add?item=4 ==================
+Nov 23, 2013 12:28:13 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/ ==================
+Nov 23, 2013 12:28:13 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:28:13 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/ ==================
+Nov 23, 2013 12:28:13 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/add?item=1 ==================
+Nov 23, 2013 12:28:13 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:28:13 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/add?item=1 ==================
+Nov 23, 2013 12:28:13 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/ ==================
+Nov 23, 2013 12:28:13 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:28:13 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/ ==================
+Nov 23, 2013 12:28:17 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/add?item=0 ==================
+Nov 23, 2013 12:28:17 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:28:17 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/add?item=0 ==================
+Nov 23, 2013 12:28:17 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/ ==================
+Nov 23, 2013 12:28:17 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:28:17 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/ ==================

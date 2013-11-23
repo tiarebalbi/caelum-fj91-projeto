@@ -1,0 +1,2071 @@
+Nov 23, 2013 12:26:40 PM org.apache.catalina.startup.Embedded initDirs
+SEVERE: Cannot find specified temporary folder at /home/arq3849/workspace/Projetos/loadbalancer/configs/serverstate-memcached/tomcat1/temp
+Nov 23, 2013 12:26:41 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/i386:/lib:/usr/lib
+Nov 23, 2013 12:26:41 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8081
+Nov 23, 2013 12:26:41 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 994 ms
+Nov 23, 2013 12:26:41 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Nov 23, 2013 12:26:41 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.32
+Nov 23, 2013 12:26:41 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive projeto-jsf-client-state.war
+Nov 23, 2013 12:26:42 PM org.apache.catalina.core.StandardContext start
+SEVERE: Error listenerStart
+Nov 23, 2013 12:26:42 PM de.javakaffee.web.msm.MemcachedSessionService startInternal
+INFO: MemcachedSessionService starts initialization... (configured nodes definition n1:localhost:11211 n2:localhost:11212, failover nodes n1)
+Nov 23, 2013 12:26:43 PM de.javakaffee.web.msm.SessionTrackerValve <init>
+INFO: Setting ignorePattern to .*\.(png|gif|jpg|css|js)\.cfm$
+Nov 23, 2013 12:26:43 PM de.javakaffee.web.msm.SessionTrackerValveTC6 getSessionCookieName
+FINE: Using session cookie name from context: JSESSIONID
+Nov 23, 2013 12:26:43 PM de.javakaffee.web.msm.MemcachedSessionService setLockingMode
+INFO: Setting lockingMode to null
+Nov 23, 2013 12:26:43 PM de.javakaffee.web.msm.MemcachedSessionService createTranscoderFactory
+INFO: Creating transcoder factory de.javakaffee.web.msm.JavaSerializationTranscoderFactory
+Nov 23, 2013 12:26:43 PM de.javakaffee.web.msm.MemcachedSessionService loadTranscoderFactoryClass
+FINE: Loading transcoder factory class de.javakaffee.web.msm.JavaSerializationTranscoderFactory using classloader WebappClassLoader
+  context: /projeto-jsf-client-state
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@13c5cc8
+
+Nov 23, 2013 12:26:43 PM de.javakaffee.web.msm.MemcachedSessionService startInternal
+INFO: MemcachedSessionService finished initialization, sticky true, with node ids [n2] and failover node ids [n1]
+Nov 23, 2013 12:26:43 PM org.apache.catalina.core.StandardContext start
+SEVERE: Context [/projeto-jsf-client-state] startup failed due to previous errors
+Nov 23, 2013 12:26:43 PM de.javakaffee.web.msm.MemcachedBackupSessionManager stop
+INFO: Removing sessions from local session map.
+Nov 23, 2013 12:26:43 PM de.javakaffee.web.msm.MemcachedSessionService shutdown
+INFO: Stopping services.
+Nov 23, 2013 12:26:43 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive livraria.war
+Nov 23, 2013 12:26:43 PM de.javakaffee.web.msm.MemcachedSessionService startInternal
+INFO: MemcachedSessionService starts initialization... (configured nodes definition n1:localhost:11211 n2:localhost:11212, failover nodes n1)
+Nov 23, 2013 12:26:43 PM de.javakaffee.web.msm.SessionTrackerValve <init>
+INFO: Setting ignorePattern to .*\.(png|gif|jpg|css|js)\.cfm$
+Nov 23, 2013 12:26:43 PM de.javakaffee.web.msm.SessionTrackerValveTC6 getSessionCookieName
+FINE: Using session cookie name from context: JSESSIONID
+Nov 23, 2013 12:26:43 PM de.javakaffee.web.msm.MemcachedSessionService setLockingMode
+INFO: Setting lockingMode to null
+Nov 23, 2013 12:26:43 PM de.javakaffee.web.msm.MemcachedSessionService createTranscoderFactory
+INFO: Creating transcoder factory de.javakaffee.web.msm.JavaSerializationTranscoderFactory
+Nov 23, 2013 12:26:43 PM de.javakaffee.web.msm.MemcachedSessionService loadTranscoderFactoryClass
+FINE: Loading transcoder factory class de.javakaffee.web.msm.JavaSerializationTranscoderFactory using classloader WebappClassLoader
+  context: /livraria
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@13c5cc8
+
+Nov 23, 2013 12:26:43 PM de.javakaffee.web.msm.MemcachedSessionService startInternal
+INFO: MemcachedSessionService finished initialization, sticky true, with node ids [n2] and failover node ids [n1]
+Nov 23, 2013 12:26:43 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8081
+Nov 23, 2013 12:26:43 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+Nov 23, 2013 12:26:43 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/80  config=null
+Nov 23, 2013 12:26:43 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1963 ms
+Nov 23, 2013 12:28:55 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/deleta?item=3 ==================
+Nov 23, 2013 12:28:55 PM de.javakaffee.web.msm.MemcachedSessionService loadFromMemcached
+FINE: Loading session from memcached: 4207E219F76659CEAEFD121FA0173C7C-n1
+Nov 23, 2013 12:28:55 PM de.javakaffee.web.msm.MemcachedSessionService loadFromMemcached
+FINE: Found session with id 4207E219F76659CEAEFD121FA0173C7C-n1
+Nov 23, 2013 12:28:55 PM de.javakaffee.web.msm.BackupSessionTask call
+FINE: Starting for session id 4207E219F76659CEAEFD121FA0173C7C-n1
+Nov 23, 2013 12:28:55 PM de.javakaffee.web.msm.BackupSessionTask doBackupSession
+FINE: Trying to store session in memcached: 4207E219F76659CEAEFD121FA0173C7C-n1
+Nov 23, 2013 12:28:55 PM de.javakaffee.web.msm.BackupSessionTask call
+FINE: Finished for session id 4207E219F76659CEAEFD121FA0173C7C-n1, returning status de.javakaffee.web.msm.BackupSessionTask$BackupResult@15d30b6
+Nov 23, 2013 12:28:55 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:28:55 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/deleta?item=3 ==================
+Nov 23, 2013 12:28:55 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/ ==================
+Nov 23, 2013 12:28:57 PM de.javakaffee.web.msm.BackupSessionTask call
+FINE: Starting for session id 4207E219F76659CEAEFD121FA0173C7C-n1
+Nov 23, 2013 12:28:57 PM de.javakaffee.web.msm.BackupSessionTask call
+FINE: Finished for session id 4207E219F76659CEAEFD121FA0173C7C-n1, returning status de.javakaffee.web.msm.BackupSessionTask$BackupResult@295bca
+Nov 23, 2013 12:28:57 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:28:57 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/ ==================
+Nov 23, 2013 12:29:01 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/ ==================
+Nov 23, 2013 12:29:01 PM de.javakaffee.web.msm.BackupSessionTask call
+FINE: Starting for session id 4207E219F76659CEAEFD121FA0173C7C-n1
+Nov 23, 2013 12:29:01 PM de.javakaffee.web.msm.BackupSessionTask call
+FINE: Finished for session id 4207E219F76659CEAEFD121FA0173C7C-n1, returning status de.javakaffee.web.msm.BackupSessionTask$BackupResult@5220c0
+Nov 23, 2013 12:29:01 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:29:01 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/ ==================
+Nov 23, 2013 12:29:02 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/css/estilo.css ==================
+Nov 23, 2013 12:29:02 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/imagens/IntroducaoAArquiteturaEDesignDeSoftware.jpg ==================
+Nov 23, 2013 12:29:02 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:29:02 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:29:02 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/css/estilo.css ==================
+Nov 23, 2013 12:29:02 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/imagens/IntroducaoAArquiteturaEDesignDeSoftware.jpg ==================
+Nov 23, 2013 12:29:02 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/imagens/ServletsEJSP.jpg ==================
+Nov 23, 2013 12:29:02 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/imagens/ServiceDesignPatterns.jpg ==================
+Nov 23, 2013 12:29:02 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:29:02 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:29:02 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/imagens/ServiceDesignPatterns.jpg ==================
+Nov 23, 2013 12:29:02 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/imagens/ServletsEJSP.jpg ==================
+Nov 23, 2013 12:29:02 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/imagens/CleanCode.jpg ==================
+Nov 23, 2013 12:29:02 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/imagens/ThePragmaticProgrammer.jpg ==================
+Nov 23, 2013 12:29:02 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:29:02 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:29:02 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/imagens/CleanCode.jpg ==================
+Nov 23, 2013 12:29:02 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/imagens/ThePragmaticProgrammer.jpg ==================
+Nov 23, 2013 12:29:03 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1792
+Nov 23, 2013 12:29:13 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1782
+Nov 23, 2013 12:29:21 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/ ==================
+Nov 23, 2013 12:29:21 PM de.javakaffee.web.msm.BackupSessionTask call
+FINE: Starting for session id 4207E219F76659CEAEFD121FA0173C7C-n1
+Nov 23, 2013 12:29:21 PM de.javakaffee.web.msm.BackupSessionTask call
+FINE: Finished for session id 4207E219F76659CEAEFD121FA0173C7C-n1, returning status de.javakaffee.web.msm.BackupSessionTask$BackupResult@78a54f
+Nov 23, 2013 12:29:21 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:29:21 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/ ==================
+Nov 23, 2013 12:29:21 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/css/estilo.css ==================
+Nov 23, 2013 12:29:21 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:29:21 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/imagens/IntroducaoAArquiteturaEDesignDeSoftware.jpg ==================
+Nov 23, 2013 12:29:21 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/css/estilo.css ==================
+Nov 23, 2013 12:29:21 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:29:21 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/imagens/IntroducaoAArquiteturaEDesignDeSoftware.jpg ==================
+Nov 23, 2013 12:29:21 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/imagens/ServletsEJSP.jpg ==================
+Nov 23, 2013 12:29:21 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:29:21 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/imagens/ServiceDesignPatterns.jpg ==================
+Nov 23, 2013 12:29:21 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/imagens/ServletsEJSP.jpg ==================
+Nov 23, 2013 12:29:21 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:29:21 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/imagens/ServiceDesignPatterns.jpg ==================
+Nov 23, 2013 12:29:21 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/imagens/ThePragmaticProgrammer.jpg ==================
+Nov 23, 2013 12:29:21 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/imagens/CleanCode.jpg ==================
+Nov 23, 2013 12:29:21 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:29:21 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/imagens/CleanCode.jpg ==================
+Nov 23, 2013 12:29:21 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:29:21 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/imagens/ThePragmaticProgrammer.jpg ==================
+Nov 23, 2013 12:29:22 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/ ==================
+Nov 23, 2013 12:29:22 PM de.javakaffee.web.msm.BackupSessionTask call
+FINE: Starting for session id 4207E219F76659CEAEFD121FA0173C7C-n1
+Nov 23, 2013 12:29:22 PM de.javakaffee.web.msm.BackupSessionTask call
+FINE: Finished for session id 4207E219F76659CEAEFD121FA0173C7C-n1, returning status de.javakaffee.web.msm.BackupSessionTask$BackupResult@1ff8c9a
+Nov 23, 2013 12:29:22 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:29:22 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/ ==================
+Nov 23, 2013 12:29:22 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/css/estilo.css ==================
+Nov 23, 2013 12:29:22 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:29:22 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/css/estilo.css ==================
+Nov 23, 2013 12:29:22 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/imagens/IntroducaoAArquiteturaEDesignDeSoftware.jpg ==================
+Nov 23, 2013 12:29:22 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/imagens/ServletsEJSP.jpg ==================
+Nov 23, 2013 12:29:22 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/imagens/ServiceDesignPatterns.jpg ==================
+Nov 23, 2013 12:29:22 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:29:22 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:29:22 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:29:22 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/imagens/ServletsEJSP.jpg ==================
+Nov 23, 2013 12:29:22 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/imagens/ServiceDesignPatterns.jpg ==================
+Nov 23, 2013 12:29:22 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/imagens/IntroducaoAArquiteturaEDesignDeSoftware.jpg ==================
+Nov 23, 2013 12:29:22 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/imagens/ThePragmaticProgrammer.jpg ==================
+Nov 23, 2013 12:29:22 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/imagens/CleanCode.jpg ==================
+Nov 23, 2013 12:29:22 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:29:22 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:29:22 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/imagens/CleanCode.jpg ==================
+Nov 23, 2013 12:29:22 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/imagens/ThePragmaticProgrammer.jpg ==================
+Nov 23, 2013 12:29:23 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1772
+Nov 23, 2013 12:29:24 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/deleta?item=2 ==================
+Nov 23, 2013 12:29:24 PM de.javakaffee.web.msm.BackupSessionTask call
+FINE: Starting for session id 4207E219F76659CEAEFD121FA0173C7C-n1
+Nov 23, 2013 12:29:24 PM de.javakaffee.web.msm.BackupSessionTask doBackupSession
+FINE: Trying to store session in memcached: 4207E219F76659CEAEFD121FA0173C7C-n1
+Nov 23, 2013 12:29:24 PM de.javakaffee.web.msm.BackupSessionTask call
+FINE: Finished for session id 4207E219F76659CEAEFD121FA0173C7C-n1, returning status de.javakaffee.web.msm.BackupSessionTask$BackupResult@eed69a
+Nov 23, 2013 12:29:24 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:29:24 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/deleta?item=2 ==================
+Nov 23, 2013 12:29:24 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/ ==================
+Nov 23, 2013 12:29:24 PM de.javakaffee.web.msm.BackupSessionTask call
+FINE: Starting for session id 4207E219F76659CEAEFD121FA0173C7C-n1
+Nov 23, 2013 12:29:24 PM de.javakaffee.web.msm.BackupSessionTask call
+FINE: Finished for session id 4207E219F76659CEAEFD121FA0173C7C-n1, returning status de.javakaffee.web.msm.BackupSessionTask$BackupResult@a2aba4
+Nov 23, 2013 12:29:24 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:29:24 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/ ==================
+Nov 23, 2013 12:29:26 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/deleta?item=0 ==================
+Nov 23, 2013 12:29:26 PM de.javakaffee.web.msm.BackupSessionTask call
+FINE: Starting for session id 4207E219F76659CEAEFD121FA0173C7C-n1
+Nov 23, 2013 12:29:26 PM de.javakaffee.web.msm.BackupSessionTask doBackupSession
+FINE: Trying to store session in memcached: 4207E219F76659CEAEFD121FA0173C7C-n1
+Nov 23, 2013 12:29:26 PM de.javakaffee.web.msm.BackupSessionTask call
+FINE: Finished for session id 4207E219F76659CEAEFD121FA0173C7C-n1, returning status de.javakaffee.web.msm.BackupSessionTask$BackupResult@1b2b908
+Nov 23, 2013 12:29:26 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:29:26 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/deleta?item=0 ==================
+Nov 23, 2013 12:29:26 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/ ==================
+Nov 23, 2013 12:29:26 PM de.javakaffee.web.msm.BackupSessionTask call
+FINE: Starting for session id 4207E219F76659CEAEFD121FA0173C7C-n1
+Nov 23, 2013 12:29:26 PM de.javakaffee.web.msm.BackupSessionTask call
+FINE: Finished for session id 4207E219F76659CEAEFD121FA0173C7C-n1, returning status de.javakaffee.web.msm.BackupSessionTask$BackupResult@91dce3
+Nov 23, 2013 12:29:26 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:29:26 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/ ==================
+Nov 23, 2013 12:29:33 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1793
+Nov 23, 2013 12:29:43 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1783
+Nov 23, 2013 12:29:49 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/ ==================
+Nov 23, 2013 12:29:49 PM de.javakaffee.web.msm.BackupSessionTask call
+FINE: Starting for session id 4207E219F76659CEAEFD121FA0173C7C-n1
+Nov 23, 2013 12:29:49 PM de.javakaffee.web.msm.BackupSessionTask call
+FINE: Finished for session id 4207E219F76659CEAEFD121FA0173C7C-n1, returning status de.javakaffee.web.msm.BackupSessionTask$BackupResult@1a9aa17
+Nov 23, 2013 12:29:49 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:29:49 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/ ==================
+Nov 23, 2013 12:29:49 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/css/estilo.css ==================
+Nov 23, 2013 12:29:49 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/imagens/IntroducaoAArquiteturaEDesignDeSoftware.jpg ==================
+Nov 23, 2013 12:29:49 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:29:49 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:29:49 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/imagens/IntroducaoAArquiteturaEDesignDeSoftware.jpg ==================
+Nov 23, 2013 12:29:49 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/css/estilo.css ==================
+Nov 23, 2013 12:29:49 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/imagens/ServletsEJSP.jpg ==================
+Nov 23, 2013 12:29:49 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/imagens/CleanCode.jpg ==================
+Nov 23, 2013 12:29:49 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/imagens/ThePragmaticProgrammer.jpg ==================
+Nov 23, 2013 12:29:49 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/imagens/ServiceDesignPatterns.jpg ==================
+Nov 23, 2013 12:29:49 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:29:49 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:29:49 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/imagens/ThePragmaticProgrammer.jpg ==================
+Nov 23, 2013 12:29:49 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/imagens/CleanCode.jpg ==================
+Nov 23, 2013 12:29:49 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:29:49 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/imagens/ServiceDesignPatterns.jpg ==================
+Nov 23, 2013 12:29:49 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:29:49 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/imagens/ServletsEJSP.jpg ==================
+Nov 23, 2013 12:29:50 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/ ==================
+Nov 23, 2013 12:29:50 PM de.javakaffee.web.msm.BackupSessionTask call
+FINE: Starting for session id 4207E219F76659CEAEFD121FA0173C7C-n1
+Nov 23, 2013 12:29:50 PM de.javakaffee.web.msm.BackupSessionTask call
+FINE: Finished for session id 4207E219F76659CEAEFD121FA0173C7C-n1, returning status de.javakaffee.web.msm.BackupSessionTask$BackupResult@17e5e19
+Nov 23, 2013 12:29:50 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:29:50 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/ ==================
+Nov 23, 2013 12:29:50 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/css/estilo.css ==================
+Nov 23, 2013 12:29:50 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/imagens/IntroducaoAArquiteturaEDesignDeSoftware.jpg ==================
+Nov 23, 2013 12:29:50 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:29:50 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/imagens/ServletsEJSP.jpg ==================
+Nov 23, 2013 12:29:50 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/imagens/ServiceDesignPatterns.jpg ==================
+Nov 23, 2013 12:29:50 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:29:50 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:29:50 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/imagens/ThePragmaticProgrammer.jpg ==================
+Nov 23, 2013 12:29:50 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/imagens/ServletsEJSP.jpg ==================
+Nov 23, 2013 12:29:50 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:29:50 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/imagens/IntroducaoAArquiteturaEDesignDeSoftware.jpg ==================
+Nov 23, 2013 12:29:50 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/imagens/ThePragmaticProgrammer.jpg ==================
+Nov 23, 2013 12:29:50 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/imagens/ServiceDesignPatterns.jpg ==================
+Nov 23, 2013 12:29:50 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:29:50 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/css/estilo.css ==================
+Nov 23, 2013 12:29:50 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/imagens/CleanCode.jpg ==================
+Nov 23, 2013 12:29:50 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:29:50 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/imagens/CleanCode.jpg ==================
+Nov 23, 2013 12:29:51 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/add?item=3 ==================
+Nov 23, 2013 12:29:51 PM de.javakaffee.web.msm.BackupSessionTask call
+FINE: Starting for session id 4207E219F76659CEAEFD121FA0173C7C-n1
+Nov 23, 2013 12:29:51 PM de.javakaffee.web.msm.BackupSessionTask doBackupSession
+FINE: Trying to store session in memcached: 4207E219F76659CEAEFD121FA0173C7C-n1
+Nov 23, 2013 12:29:51 PM de.javakaffee.web.msm.BackupSessionTask call
+FINE: Finished for session id 4207E219F76659CEAEFD121FA0173C7C-n1, returning status de.javakaffee.web.msm.BackupSessionTask$BackupResult@ab4a39
+Nov 23, 2013 12:29:51 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:29:51 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/add?item=3 ==================
+Nov 23, 2013 12:29:51 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/ ==================
+Nov 23, 2013 12:29:51 PM de.javakaffee.web.msm.BackupSessionTask call
+FINE: Starting for session id 4207E219F76659CEAEFD121FA0173C7C-n1
+Nov 23, 2013 12:29:51 PM de.javakaffee.web.msm.BackupSessionTask call
+FINE: Finished for session id 4207E219F76659CEAEFD121FA0173C7C-n1, returning status de.javakaffee.web.msm.BackupSessionTask$BackupResult@19612b0
+Nov 23, 2013 12:29:51 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:29:51 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/ ==================
+Nov 23, 2013 12:29:52 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/add?item=2 ==================
+Nov 23, 2013 12:29:52 PM de.javakaffee.web.msm.BackupSessionTask call
+FINE: Starting for session id 4207E219F76659CEAEFD121FA0173C7C-n1
+Nov 23, 2013 12:29:52 PM de.javakaffee.web.msm.BackupSessionTask doBackupSession
+FINE: Trying to store session in memcached: 4207E219F76659CEAEFD121FA0173C7C-n1
+Nov 23, 2013 12:29:52 PM de.javakaffee.web.msm.BackupSessionTask call
+FINE: Finished for session id 4207E219F76659CEAEFD121FA0173C7C-n1, returning status de.javakaffee.web.msm.BackupSessionTask$BackupResult@36d9c5
+Nov 23, 2013 12:29:52 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:29:52 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/add?item=2 ==================
+Nov 23, 2013 12:29:52 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/ ==================
+Nov 23, 2013 12:29:52 PM de.javakaffee.web.msm.BackupSessionTask call
+FINE: Starting for session id 4207E219F76659CEAEFD121FA0173C7C-n1
+Nov 23, 2013 12:29:52 PM de.javakaffee.web.msm.BackupSessionTask call
+FINE: Finished for session id 4207E219F76659CEAEFD121FA0173C7C-n1, returning status de.javakaffee.web.msm.BackupSessionTask$BackupResult@1133572
+Nov 23, 2013 12:29:52 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:29:52 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/ ==================
+Nov 23, 2013 12:29:52 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/add?item=1 ==================
+Nov 23, 2013 12:29:52 PM de.javakaffee.web.msm.BackupSessionTask call
+FINE: Starting for session id 4207E219F76659CEAEFD121FA0173C7C-n1
+Nov 23, 2013 12:29:52 PM de.javakaffee.web.msm.BackupSessionTask call
+FINE: Finished for session id 4207E219F76659CEAEFD121FA0173C7C-n1, returning status de.javakaffee.web.msm.BackupSessionTask$BackupResult@f1a4a9
+Nov 23, 2013 12:29:52 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:29:52 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/add?item=1 ==================
+Nov 23, 2013 12:29:52 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/ ==================
+Nov 23, 2013 12:29:52 PM de.javakaffee.web.msm.BackupSessionTask call
+FINE: Starting for session id 4207E219F76659CEAEFD121FA0173C7C-n1
+Nov 23, 2013 12:29:52 PM de.javakaffee.web.msm.BackupSessionTask call
+FINE: Finished for session id 4207E219F76659CEAEFD121FA0173C7C-n1, returning status de.javakaffee.web.msm.BackupSessionTask$BackupResult@717dc9
+Nov 23, 2013 12:29:52 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:29:52 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/ ==================
+Nov 23, 2013 12:29:52 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/add?item=0 ==================
+Nov 23, 2013 12:29:52 PM de.javakaffee.web.msm.BackupSessionTask call
+FINE: Starting for session id 4207E219F76659CEAEFD121FA0173C7C-n1
+Nov 23, 2013 12:29:52 PM de.javakaffee.web.msm.BackupSessionTask doBackupSession
+FINE: Trying to store session in memcached: 4207E219F76659CEAEFD121FA0173C7C-n1
+Nov 23, 2013 12:29:52 PM de.javakaffee.web.msm.BackupSessionTask call
+FINE: Finished for session id 4207E219F76659CEAEFD121FA0173C7C-n1, returning status de.javakaffee.web.msm.BackupSessionTask$BackupResult@1f403b6
+Nov 23, 2013 12:29:52 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:29:52 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/add?item=0 ==================
+Nov 23, 2013 12:29:52 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/ ==================
+Nov 23, 2013 12:29:52 PM de.javakaffee.web.msm.BackupSessionTask call
+FINE: Starting for session id 4207E219F76659CEAEFD121FA0173C7C-n1
+Nov 23, 2013 12:29:52 PM de.javakaffee.web.msm.BackupSessionTask call
+FINE: Finished for session id 4207E219F76659CEAEFD121FA0173C7C-n1, returning status de.javakaffee.web.msm.BackupSessionTask$BackupResult@7161a
+Nov 23, 2013 12:29:52 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:29:52 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/ ==================
+Nov 23, 2013 12:29:53 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1799
+Nov 23, 2013 12:29:53 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/add?item=4 ==================
+Nov 23, 2013 12:29:53 PM de.javakaffee.web.msm.BackupSessionTask call
+FINE: Starting for session id 4207E219F76659CEAEFD121FA0173C7C-n1
+Nov 23, 2013 12:29:53 PM de.javakaffee.web.msm.BackupSessionTask call
+FINE: Finished for session id 4207E219F76659CEAEFD121FA0173C7C-n1, returning status de.javakaffee.web.msm.BackupSessionTask$BackupResult@c1a4f
+Nov 23, 2013 12:29:53 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:29:53 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/add?item=4 ==================
+Nov 23, 2013 12:29:53 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/ ==================
+Nov 23, 2013 12:29:53 PM de.javakaffee.web.msm.BackupSessionTask call
+FINE: Starting for session id 4207E219F76659CEAEFD121FA0173C7C-n1
+Nov 23, 2013 12:29:53 PM de.javakaffee.web.msm.BackupSessionTask call
+FINE: Finished for session id 4207E219F76659CEAEFD121FA0173C7C-n1, returning status de.javakaffee.web.msm.BackupSessionTask$BackupResult@9341ca
+Nov 23, 2013 12:29:53 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:29:53 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/ ==================
+Nov 23, 2013 12:30:03 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1789
+Nov 23, 2013 12:30:13 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1779
+Nov 23, 2013 12:30:23 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1769
+Nov 23, 2013 12:30:33 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1759
+Nov 23, 2013 12:30:43 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1749
+Nov 23, 2013 12:30:53 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1739
+Nov 23, 2013 12:31:03 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1729
+Nov 23, 2013 12:31:13 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1719
+Nov 23, 2013 12:31:15 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: >>>>>> Request starting: /livraria/ ==================
+Nov 23, 2013 12:31:15 PM de.javakaffee.web.msm.BackupSessionTask call
+FINE: Starting for session id 4207E219F76659CEAEFD121FA0173C7C-n1
+Nov 23, 2013 12:31:15 PM de.javakaffee.web.msm.BackupSessionTask call
+FINE: Finished for session id 4207E219F76659CEAEFD121FA0173C7C-n1, returning status de.javakaffee.web.msm.BackupSessionTask$BackupResult@d489db
+Nov 23, 2013 12:31:15 PM de.javakaffee.web.msm.SessionTrackerValve logDebugRequestSessionCookie
+FINE: Have request session cookie: domain=null, maxAge=-1, path=null, value=4207E219F76659CEAEFD121FA0173C7C-n1, version=0, secure=false
+Nov 23, 2013 12:31:15 PM de.javakaffee.web.msm.SessionTrackerValve invoke
+FINE: <<<<<< Request finished: /livraria/ ==================
+Nov 23, 2013 12:31:23 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1709
+Nov 23, 2013 12:31:33 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1699
+Nov 23, 2013 12:31:43 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1689
+Nov 23, 2013 12:31:53 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1679
+Nov 23, 2013 12:32:03 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1669
+Nov 23, 2013 12:32:13 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1659
+Nov 23, 2013 12:32:23 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1649
+Nov 23, 2013 12:32:33 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1639
+Nov 23, 2013 12:32:43 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1629
+Nov 23, 2013 12:32:53 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1619
+Nov 23, 2013 12:33:03 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1609
+Nov 23, 2013 12:33:13 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1599
+Nov 23, 2013 12:33:23 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1589
+Nov 23, 2013 12:33:33 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1579
+Nov 23, 2013 12:33:43 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1569
+Nov 23, 2013 12:33:53 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1559
+Nov 23, 2013 12:34:03 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1549
+Nov 23, 2013 12:34:13 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1539
+Nov 23, 2013 12:34:23 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1529
+Nov 23, 2013 12:34:33 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1519
+Nov 23, 2013 12:34:43 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1509
+Nov 23, 2013 12:34:53 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1499
+Nov 23, 2013 12:35:03 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1489
+Nov 23, 2013 12:35:13 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1479
+Nov 23, 2013 12:35:23 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1469
+Nov 23, 2013 12:35:33 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1459
+Nov 23, 2013 12:35:43 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1449
+Nov 23, 2013 12:35:53 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1439
+Nov 23, 2013 12:36:03 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1429
+Nov 23, 2013 12:36:13 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1419
+Nov 23, 2013 12:36:23 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1409
+Nov 23, 2013 12:36:33 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1399
+Nov 23, 2013 12:36:43 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1389
+Nov 23, 2013 12:36:53 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1379
+Nov 23, 2013 12:37:03 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1369
+Nov 23, 2013 12:37:13 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1359
+Nov 23, 2013 12:37:23 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1349
+Nov 23, 2013 12:37:33 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1339
+Nov 23, 2013 12:37:43 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1329
+Nov 23, 2013 12:37:53 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1319
+Nov 23, 2013 12:38:03 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1309
+Nov 23, 2013 12:38:13 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1299
+Nov 23, 2013 12:38:23 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1289
+Nov 23, 2013 12:38:33 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1279
+Nov 23, 2013 12:38:43 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1269
+Nov 23, 2013 12:38:53 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1259
+Nov 23, 2013 12:39:03 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1249
+Nov 23, 2013 12:39:13 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1239
+Nov 23, 2013 12:39:23 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1229
+Nov 23, 2013 12:39:33 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1219
+Nov 23, 2013 12:39:43 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1209
+Nov 23, 2013 12:39:53 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1199
+Nov 23, 2013 12:40:03 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1189
+Nov 23, 2013 12:40:13 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1179
+Nov 23, 2013 12:40:23 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1169
+Nov 23, 2013 12:40:33 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1159
+Nov 23, 2013 12:40:43 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1149
+Nov 23, 2013 12:40:53 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1139
+Nov 23, 2013 12:41:03 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1129
+Nov 23, 2013 12:41:13 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1119
+Nov 23, 2013 12:41:23 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1109
+Nov 23, 2013 12:41:33 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1099
+Nov 23, 2013 12:41:43 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1089
+Nov 23, 2013 12:41:53 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1079
+Nov 23, 2013 12:42:03 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1069
+Nov 23, 2013 12:42:13 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1059
+Nov 23, 2013 12:42:23 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1049
+Nov 23, 2013 12:42:33 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1039
+Nov 23, 2013 12:42:43 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1029
+Nov 23, 2013 12:42:53 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1019
+Nov 23, 2013 12:43:03 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 1009
+Nov 23, 2013 12:43:13 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 999
+Nov 23, 2013 12:43:23 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 989
+Nov 23, 2013 12:43:33 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 979
+Nov 23, 2013 12:43:43 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 969
+Nov 23, 2013 12:43:53 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 959
+Nov 23, 2013 12:44:03 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 949
+Nov 23, 2013 12:44:13 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 939
+Nov 23, 2013 12:44:23 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 929
+Nov 23, 2013 12:44:33 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 919
+Nov 23, 2013 12:44:43 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 909
+Nov 23, 2013 12:44:53 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 899
+Nov 23, 2013 12:45:03 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 889
+Nov 23, 2013 12:45:13 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 879
+Nov 23, 2013 12:45:23 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 869
+Nov 23, 2013 12:45:33 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 859
+Nov 23, 2013 12:45:43 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 849
+Nov 23, 2013 12:45:53 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 839
+Nov 23, 2013 12:46:03 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 829
+Nov 23, 2013 12:46:13 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 819
+Nov 23, 2013 12:46:23 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 809
+Nov 23, 2013 12:46:33 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 799
+Nov 23, 2013 12:46:43 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 789
+Nov 23, 2013 12:46:53 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 779
+Nov 23, 2013 12:47:03 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 769
+Nov 23, 2013 12:47:14 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 759
+Nov 23, 2013 12:47:24 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 749
+Nov 23, 2013 12:47:34 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 739
+Nov 23, 2013 12:47:44 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 729
+Nov 23, 2013 12:47:54 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 719
+Nov 23, 2013 12:48:04 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 709
+Nov 23, 2013 12:48:14 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 699
+Nov 23, 2013 12:48:24 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 689
+Nov 23, 2013 12:48:34 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 679
+Nov 23, 2013 12:48:44 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 669
+Nov 23, 2013 12:48:54 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 659
+Nov 23, 2013 12:49:04 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 649
+Nov 23, 2013 12:49:14 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 639
+Nov 23, 2013 12:49:24 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 629
+Nov 23, 2013 12:49:34 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 619
+Nov 23, 2013 12:49:44 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 609
+Nov 23, 2013 12:49:54 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 599
+Nov 23, 2013 12:50:04 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 589
+Nov 23, 2013 12:50:14 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 579
+Nov 23, 2013 12:50:24 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 569
+Nov 23, 2013 12:50:34 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 559
+Nov 23, 2013 12:50:44 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 549
+Nov 23, 2013 12:50:54 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 539
+Nov 23, 2013 12:51:04 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 529
+Nov 23, 2013 12:51:14 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 519
+Nov 23, 2013 12:51:24 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 509
+Nov 23, 2013 12:51:34 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 499
+Nov 23, 2013 12:51:44 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 489
+Nov 23, 2013 12:51:54 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 479
+Nov 23, 2013 12:52:04 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 469
+Nov 23, 2013 12:52:14 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 459
+Nov 23, 2013 12:52:24 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 449
+Nov 23, 2013 12:52:34 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 439
+Nov 23, 2013 12:52:44 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 429
+Nov 23, 2013 12:52:54 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 419
+Nov 23, 2013 12:53:04 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 409
+Nov 23, 2013 12:53:14 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 399
+Nov 23, 2013 12:53:24 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 389
+Nov 23, 2013 12:53:34 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 379
+Nov 23, 2013 12:53:44 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 369
+Nov 23, 2013 12:53:54 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 359
+Nov 23, 2013 12:54:04 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 349
+Nov 23, 2013 12:54:14 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 339
+Nov 23, 2013 12:54:24 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 329
+Nov 23, 2013 12:54:34 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 319
+Nov 23, 2013 12:54:44 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 309
+Nov 23, 2013 12:54:54 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 299
+Nov 23, 2013 12:55:04 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 289
+Nov 23, 2013 12:55:14 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 279
+Nov 23, 2013 12:55:24 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 269
+Nov 23, 2013 12:55:34 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 259
+Nov 23, 2013 12:55:44 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 249
+Nov 23, 2013 12:55:54 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 239
+Nov 23, 2013 12:56:04 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 229
+Nov 23, 2013 12:56:14 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 219
+Nov 23, 2013 12:56:24 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 209
+Nov 23, 2013 12:56:34 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 199
+Nov 23, 2013 12:56:44 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 189
+Nov 23, 2013 12:56:54 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 179
+Nov 23, 2013 12:57:04 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 169
+Nov 23, 2013 12:57:14 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 159
+Nov 23, 2013 12:57:24 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 149
+Nov 23, 2013 12:57:34 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 139
+Nov 23, 2013 12:57:44 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 129
+Nov 23, 2013 12:57:54 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 119
+Nov 23, 2013 12:58:04 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 109
+Nov 23, 2013 12:58:14 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 99
+Nov 23, 2013 12:58:24 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 89
+Nov 23, 2013 12:58:34 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 79
+Nov 23, 2013 12:58:44 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 69
+Nov 23, 2013 12:58:54 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 59
+Nov 23, 2013 12:59:04 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 49
+Nov 23, 2013 12:59:14 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 39
+Nov 23, 2013 12:59:24 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 29
+Nov 23, 2013 12:59:34 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 19
+Nov 23, 2013 12:59:44 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: 9
+Nov 23, 2013 12:59:54 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: -1
+Nov 23, 2013 1:00:04 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: true
+- memcachedExpirationTime: -11
+Nov 23, 2013 1:00:04 PM de.javakaffee.web.msm.BackupSessionTask doBackupSession
+FINE: Trying to store session in memcached: 4207E219F76659CEAEFD121FA0173C7C-n1
+Nov 23, 2013 1:00:14 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: false
+- memcachedExpirationTime: 61
+Nov 23, 2013 1:00:24 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: false
+- memcachedExpirationTime: 51
+Nov 23, 2013 1:00:34 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: false
+- memcachedExpirationTime: 41
+Nov 23, 2013 1:00:44 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: false
+- memcachedExpirationTime: 31
+Nov 23, 2013 1:00:54 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: false
+- memcachedExpirationTime: 21
+Nov 23, 2013 1:01:04 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: false
+- memcachedExpirationTime: 11
+Nov 23, 2013 1:01:14 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: false
+- memcachedExpirationTime: 1
+Nov 23, 2013 1:01:24 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: false
+- memcachedExpirationTime: -9
+Nov 23, 2013 1:01:34 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: false
+- memcachedExpirationTime: -19
+Nov 23, 2013 1:01:44 PM de.javakaffee.web.msm.MemcachedSessionService updateExpirationInMemcached
+FINE: Checking session 4207E219F76659CEAEFD121FA0173C7C-n1: 
+- isValid: true
+- isExpiring: false
+- isBackupRunning: false
+- isExpirationUpdateRunning: false
+- wasAccessedSinceLastBackup: false
+- memcachedExpirationTime: -29
+Nov 23, 2013 1:01:44 PM de.javakaffee.web.msm.MemcachedBackupSessionManager remove
+FINE: remove invoked, removeFromMemcached: true, id: 4207E219F76659CEAEFD121FA0173C7C-n1
+Nov 23, 2013 1:01:44 PM de.javakaffee.web.msm.MemcachedSessionService deleteFromMemcached
+FINE: Deleting session from memcached: 4207E219F76659CEAEFD121FA0173C7C-n1
